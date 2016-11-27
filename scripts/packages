@@ -9,12 +9,15 @@ glibc
 gzip
 iproute2
 iputils
+linux-grsec
+linux-grsec-headers
 openssh
 pacman
-procps-ng
 perl
+procps-ng
 rsync
 sed
 shadow
+sudo
 tar
 xz

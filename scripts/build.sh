@@ -15,7 +15,7 @@ cleanup() {
 trap cleanup EXIT
 
 mkdir "${ROOTFS}"
-pacstrap -d -G -M "${ROOTFS}" $( cat "${SCRIPTDIR}/packages" )
+pacstrap -d -G -M "${ROOTFS}" $( grep -v '^#|^$' "${SCRIPTDIR}/packages" )
 find "${ROOTFS}/var/cache/pacman/pkg" -mindepth 1 -delete
 
 cd "${ARCHIVEPATH}"
