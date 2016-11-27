@@ -9,8 +9,6 @@ glibc
 gzip
 iproute2
 iputils
-linux-grsec
-linux-grsec-headers
 openssh
 pacman
 perl
@@ -18,6 +16,5 @@ procps-ng
 rsync
 sed
 shadow
-sudo
 tar
 xz
